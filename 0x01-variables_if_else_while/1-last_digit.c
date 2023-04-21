@@ -12,7 +12,6 @@ int main(void)
 
 	strand(time(0));
 	n = rand() - RAND_MAX / 2;
-	a = n % 10;
 
 	if ((n % 10) > 5)
 	{
