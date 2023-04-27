@@ -8,7 +8,7 @@
 int main(void)
 {
 	int c, b, b2;
-	long int n1, n2, fn, fn2,  n11, n22;
+	long int n1, n2, fn, fn2, n11, n22;
 
 	n1 = 1;
 	n2 = 2;
@@ -34,7 +34,7 @@ int main(void)
 				b2 = 0;
 			}
 			fn2 = (n11 = n22);
-			fn = n1 + n2 + (fn / 1000000000);
+			fn = n1 + n2 + (fn2 / 1000000000);
 			printf(", %ld", fn);
 			printf("%ld", fn2 % 1000000000);
 			n1 = n2;
