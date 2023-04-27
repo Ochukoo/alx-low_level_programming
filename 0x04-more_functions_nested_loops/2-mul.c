@@ -8,28 +8,5 @@
  */
 int mul(int a, int b)
 {
-	int result = 0;
-	int sign = 1;
-
-	if (a < 0)
-	{
-		sign = -sign;
-		a = -a;
-	}
-	if (b < 0)
-	{
-		sign = -sign;
-		b = -b;
-	}
-
-	while (b > 0)
-	{
-		if (b & 1)
-		{
-			result += a;
-		}
-		a <<= 1;
-		b >>=1;
-	}
-	return sign * result;
-}
+return(a * b);
+} 
