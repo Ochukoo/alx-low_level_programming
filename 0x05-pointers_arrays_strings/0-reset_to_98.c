@@ -2,12 +2,12 @@
 
 /**
  * reset_to_98 - updates the value of an integer to 98
- * @i: pointer to the integer to update
+ * @n: pointer to the integer to update
  * Return: void
  */
 
-void reset_to_98(int *i)
+void reset_to_98(int *n)
 {
-	*i = 98;
+	*n = 98;
 }
 
